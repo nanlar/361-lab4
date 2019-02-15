@@ -8,7 +8,7 @@
 
   <body>
   
-    <h1>Volunteer Form</h1>
+    <h2>Volunteer Form</h2>
     <form action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" method="post" autocomplete="on">  
       <fieldset>
         <legend>My Info</legend>
@@ -44,8 +44,8 @@
         </div>
       </fieldset>
     
-      <h2>My Availability</h2>
-      <fieldset>        
+      <fieldset>
+        <legend>My Availability</legend>      
         <div>
           <label>Sunday <input type="checkbox" name="available_field[]" value="red"></label>
           <label>Monday <input type="checkbox" name="available_field[]" value="blue" ></label>
@@ -64,7 +64,9 @@
       <div>
         <input type="hidden" name="hidden_field" value="nanlar">
       </div>
-      <input type="submit" value="Send Me">
+      <p>
+        <input type="submit" value="Send Me">
+      </p>
   
     </form>
       
